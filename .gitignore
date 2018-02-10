@@ -6,3 +6,5 @@ npm-debug.log
 federationmetadata.xml
 *.sublime-workspace
 package-lock.json
+
+out/
