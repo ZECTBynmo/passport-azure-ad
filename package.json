@@ -48,7 +48,7 @@
   },
   "scripts": {
     "test": "grunt run_tests",
-    "build": "rm -rf out/ && ./node_modules/babel-cli/bin/babel.js . --out-dir out --ignore node_modules/",
+    "build": "rm -rf out/ && node_modules/babel-cli/bin/babel.js . --out-dir out --ignore node_modules/",
     "postinstall": "npm run build"
   },
   "engines": {
