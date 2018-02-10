@@ -34,6 +34,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-constants": "^6.1.4",
     "base64url": "^2.0.0",
     "bunyan": "^1.8.0",
     "cache-manager": "^2.0.0",
