@@ -48,8 +48,8 @@
   },
   "scripts": {
     "test": "grunt run_tests",
-    "build": "echo $PWD && rm -rf out/ && babel . --out-dir out --ignore node_modules/",
-    "postinstall": "npm install -g babel-cli && npm run build"
+    "build": "echo $PWD && rm -rf out/ && babel . --plugins transform- --out-dir out --ignore node_modules/",
+    "postinstall": "sudo npm install -g babel-cli && npm run build"
   },
   "engines": {
     "node": ">= 4.0.1"
